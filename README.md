@@ -106,4 +106,15 @@ Open PowerShell or Command Prompt in your project directory and run:
 gcc server.c -o mini_server.exe -lws2_32
 ```
 
+### ▶️ Step 3 — Run the Server
+```bash
+.\mini_server.exe
+```
+Expected output:
+```bassh
+=== Mini Web Server Starting ===
+[OK] Winsock initialized successfully.
+[OK] Server listening on http://localhost:8080
+```
+
 
