@@ -30,3 +30,72 @@ mini_web_server/
 └── mini_server.exe # Compiled executable (after build)
 
 ---
+
+
+---
+
+## ⚙️ Tech Stack
+
+| Component | Technology Used |
+|------------|------------------|
+| 💻 **Language** | C |
+| 🔌 **Networking** | Winsock2 API |
+| 🧱 **Build Tool** | MinGW / GCC |
+| 🌐 **Frontend** | HTML + CSS |
+| 🧰 **Platform** | Windows |
+
+---
+
+## 🧩 Key Routes
+
+| Route | Description | Type |
+|--------|--------------|------|
+| `/` | Home Page | Static |
+| `/about.html` | About Page | Static |
+| `/hello` | Returns Greeting | Dynamic |
+| `/time` | Displays Server Time | Dynamic |
+| `/status` | Returns Server Info (JSON) | API |
+| `/google` | Redirects to Google | Redirect |
+| `/youtube` | Redirects to YouTube | Redirect |
+| `/github` | Redirects to GitHub | Redirect |
+| `/wikipedia` | Redirects to Wikipedia | Redirect |
+
+---
+
+## ⚙️ Tech Stack
+
+| Component | Technology Used |
+|------------|------------------|
+| 💻 **Language** | C |
+| 🔌 **Networking** | Winsock2 API |
+| 🧱 **Build Tool** | MinGW / GCC |
+| 🌐 **Frontend** | HTML + CSS |
+| 🧰 **Platform** | Windows |
+
+---
+
+## 🧩 Key Routes
+
+| Route | Description | Type |
+|--------|--------------|------|
+| `/` | Home Page | Static |
+| `/about.html` | About Page | Static |
+| `/hello` | Returns Greeting | Dynamic |
+| `/time` | Displays Server Time | Dynamic |
+| `/status` | Returns Server Info (JSON) | API |
+| `/google` | Redirects to Google | Redirect |
+| `/youtube` | Redirects to YouTube | Redirect |
+| `/github` | Redirects to GitHub | Redirect |
+| `/wikipedia` | Redirects to Wikipedia | Redirect |
+
+---
+
+## 🛠️ How to Run
+
+### 🧩 Step 1 — Install MinGW (C Compiler)
+Download the setup: [MinGW Installer](https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe)
+
+After installation, verify it:
+```bash
+gcc --version
+
