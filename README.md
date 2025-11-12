@@ -20,3 +20,13 @@
 
 ## 📂 Project Structure
 
+mini_web_server/
+│
+├── server.c # Main server logic (C code)
+├── server.h # Header file with declarations
+├── index.html # Homepage served by the server
+├── about.html # About page
+├── style.css # Website styling
+└── mini_server.exe # Compiled executable (after build)
+
+---
