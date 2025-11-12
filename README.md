@@ -98,4 +98,12 @@ Download the setup: [MinGW Installer](https://osdn.net/projects/mingw/downloads/
 After installation, verify it:
 ```bash
 gcc --version
+```
+
+### ⚙️ Step 2 — Compile the Server
+Open PowerShell or Command Prompt in your project directory and run:
+```bash
+gcc server.c -o mini_server.exe -lws2_32
+```
+
 
